@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.NavList {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.NavList li {
+ margin: 15px 
+}
