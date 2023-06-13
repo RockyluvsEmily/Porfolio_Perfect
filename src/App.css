@@ -1,13 +1,27 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cambria, Cochin, Georgia, Times, serif';
+  text-decoration: none;
+  color:rgb(221, 69, 153)
+  
 }
 
-.NavList {
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-end;
+body{
+  height: 100vh;
+  background-color: #000;
+  background-image: url('https://img.freepik.com/premium-vector/pixel-game-coins-animation-golden-pixelated-coin-animated-frames-retro-16-bit-pixels-gold-video-games-money-illustration_102902-1269.jpg?w=996');
+  background-size: cover;
+  background-position: center;
 }
 
-.NavList li {
- margin: 15px 
+li{
+list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(238, 234, 20);
+  font-size: 1rem;
 }

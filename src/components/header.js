@@ -5,7 +5,7 @@ function Header() {
     // We return all the JSX inside a parent element with a className of "container".
     return (
         <div className="container">
-            <h1>Header</h1>
+            <h1>Dewayne Cavendish</h1>
             <Nav />
 
         </div>
